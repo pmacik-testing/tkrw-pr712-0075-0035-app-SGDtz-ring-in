@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ezpg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0035-tenant/tkrw-pr712-0075-0035-app/devfile-sample-ezpg@sha256:37acc8d151b12c6491afa2d55c1190f13685c471fa0cb2ea6b5ba3e0a68c6cf6
         name: my-nodejs
         ports:
         - containerPort: 3001
